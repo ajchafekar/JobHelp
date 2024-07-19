@@ -1,0 +1,70 @@
+.news-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: rgb(130,126,203);
+    background: linear-gradient(90deg, rgba(130,126,203,1) 0%, rgba(9,121,93,0.6531862745098039) 50%, rgba(0,212,255,1) 100%);
+  }
+  
+  .card-container {
+    width: 50%;
+    height: 280px;
+    display: flex;
+    flex-direction: column; /*Arrange children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: first baseline; /* Center children vertically */
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid #fff;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 20px; /* Optional: add padding for spacing */
+  }
+  
+  .card-container h3 {
+    font-size: 2rem;
+    color: #000; /* Change text color for better contrast */
+    margin-bottom: 5px;
+  }
+  
+  .card-container h1 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  
+  .card-container p {
+    font-size: 1.2rem;
+    color: #000; /* Change text color for better contrast */
+    margin-top: 0; /* Ensure there's no extra margin at the top */
+  }
+
+  .newsletter-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 250px;
+    font-size: 1rem;
+  }
+  
+  .newsletter-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-input button:hover {
+    background-color: #0056b3;
+  }
+
